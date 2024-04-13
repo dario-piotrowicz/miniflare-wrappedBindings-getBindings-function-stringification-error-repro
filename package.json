@@ -1,0 +1,19 @@
+{
+  "name": "miniflare-no-rpc-binding-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js error",
+    "start-ok": "node index.js",
+    "start-ko": "node index.js error",
+    "do": "node index.do.js",
+    "dor": "node index.do.rpc.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "miniflare": "/Users/dario/Repos/workers-sdk/packages/miniflare"
+  }
+}
