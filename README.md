@@ -8,4 +8,4 @@ $ npm i
 If you run `npm start` you'll see the following output:
 ![screenshot](./screenshot.png)
 
-Showing that the `Greeter` wrapped binding can be successfully used inside Miniflare/Workerd but it cannot by the Miniflare binding proxies.
+Showing that the `Greeter` wrapped binding can be successfully used inside Miniflare/Workerd but it cannot by using the Miniflare binding proxies.
